@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+body {
+	background: #33363B;
+}
+header {
+	background: #ffa208;
+	padding: 20px;
+}
+header > h1 {
+	color: white;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #039be5
+}
+a:hover{
+	color: red;
+}
+.choice {
+	background: #039be5;
+	color: #5a1476;
+	font-size: 18px;
+	padding: 2px 4px;
+	text-align: center;
+	align-self: center;
+}
+.buttons {
+	background: #5a1476;
+	color: red;
+	font-size: 36px;
+	text-align: center;
+	padding: 10px;
+	margin: 100px auto;
+	width: 25%;
+}
