@@ -4,15 +4,28 @@
 	box-sizing: 0;
 }
 body {
-	background: #33363B;
+	background-color: #33363b;
 }
-header {
-	background: #ffa208;
-	padding: 20px;
+.logo {
+	background-image: url(siic_logo.jpg);
+	background-size: 100%;
+	border-radius: 70px;
+	position: relative;
+	top: 10px;
+	height: 150px;
+	width: 150px;
+	margin: 20px;
 }
-header > h1 {
+.title {
+	background-color: #33363b;
 	color: white;
-	text-align: center;
+	font-size: 72px;
+	width: 800px;
+	text-align: left;
+	margin: 20px;
+	position:absolute;
+	left: 15%;
+	top: 40px;
 }
 a {
 	text-decoration: none;
@@ -21,20 +34,42 @@ a {
 a:hover{
 	color: red;
 }
-.choice {
+.login {
 	background: #039be5;
 	color: #5a1476;
-	font-size: 18px;
-	padding: 2px 4px;
+	font-size: 36px;
+	padding: 8px;
 	text-align: center;
-	align-self: center;
+	position: relative;
+	top: 20px;
 }
-.buttons {
+.button1 {
 	background: #5a1476;
 	color: red;
 	font-size: 36px;
 	text-align: center;
 	padding: 10px;
-	margin: 100px auto;
+	margin: 70px auto;
 	width: 25%;
+}
+.button2 {
+	background: #5a1476;
+	color: red;
+	font-size: 36px;
+	text-align: center;
+	padding: 10px;
+	margin: 70px auto;
+	width: 25%;
+}
+.image {
+	background-image: url(siic_img.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 70px;
+	position: fixed;
+	bottom: -100px;
+	right: 30px;
+	height: 300px;
+	width: 300px;
+	margin: 20px;
 }
